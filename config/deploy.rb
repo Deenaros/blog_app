@@ -6,7 +6,7 @@ set :user, "adminuser"
 
 
 set :scm, :git
-set :repository, "git@github.com:Deenaros/blog_app.git"
+set :repository, "git@github.com:Deenaros/blog_app/.git"
 set :branch, "master"
 set :use_sudo, true
 
