@@ -2,7 +2,7 @@ require "bundler/capistrano"
 
 
 set :application, "blog_app"
-set :user, "adminuser"
+set :user, "deena"
 
 
 set :scm, :git
@@ -11,7 +11,7 @@ set :branch, "master"
 set :use_sudo, true
 
 
-server "sk-app.cloudapp.net", :web, :app, :db, primary: true
+server "firstvmtest1.cloudapp.net", :web, :app, :db, primary: true
 
 
 set :deploy_to, "/home/#{user}/#{application}"
